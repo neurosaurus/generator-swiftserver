@@ -8,6 +8,7 @@
     "testint": "standard --env mocha && mocha 'test/integration/**/*.js'",
     "testintfast": "standard --env mocha && mocha 'test/integration/**/*nobuild*.js'",
     "testsdkgen": "standard --env mocha && mocha 'test/sdkgen/**/*.js'",
+    "testcodegen": "standard --env mocha && mocha 'test/codegen/**/*.js'",
     "coverage": "standard --env mocha && nyc mocha --grep @full --invert 'test/unit/**/*.js' 'test/integration/**/*.js'",
     "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov"
   },
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "codecov": "^3.0.0",
+    "common-codegen-tests": "^2.2.3",
     "istanbul": "^0.4.5",
     "makeshift": "^1.1.0",
     "mem-fs": "^1.1.3",
