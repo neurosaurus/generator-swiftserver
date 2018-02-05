@@ -231,7 +231,7 @@ To run the application:
 <% } -%>
 
 ### Deploy to IBM Cloud
-You can deploy your application to Bluemix using:
+You can deploy your application to IBM Cloud using:
 * the [CloudFoundry CLI](#cloudfoundry-cli)
 * an [IBM Cloud toolchain](#ibm-cloud-toolchain)
 
